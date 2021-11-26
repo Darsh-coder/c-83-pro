@@ -69,6 +69,7 @@ export default class Feed extends Component {
               renderItem={this.renderItem}
             />
           </View>
+          <View style={{ flex: 0.08 }} />
         </View>
       );
     }
@@ -107,6 +108,6 @@ const styles = StyleSheet.create({
     fontFamily: "Bubblegum-Sans"
   },
   cardContainer: {
-    flex: 0.93
+    flex: 0.85
   }
 });
